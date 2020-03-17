@@ -10,8 +10,8 @@
 ///////////////////////////////////////////////////////////////////////////
 //   WiFi
 ///////////////////////////////////////////////////////////////////////////
-#define WIFI_SSID       "GuiFi"
-#define WIFI_PASSWORD   "paula1548"
+#define WIFI_SSID       "*****"
+#define WIFI_PASSWORD   "*****"
 //#define DHCP            // uncomment for use DHCP
 #ifndef DHCP
 IPAddress NODE_IP(192,168,1,52);
@@ -22,11 +22,8 @@ IPAddress NODE_MASK(255,255,255,0);
 //   MQTT
 ///////////////////////////////////////////////////////////////////////////
 #define MQTT_CLIENT_ID    "NodoGaleria"
-//#define MQTT_USERNAME     "homeassistant" // M8S
-#define MQTT_USERNAME     "hass_mqtt"       // BRIX
-#define MQTT_PASSWORD     "chon2185"
-// #define MQTT_SERVER       "iotdevar.duckdns.org"
-//#define MQTT_SERVER       "192.168.1.6" // M8S
+#define MQTT_USERNAME     "********"       // BRIX
+#define MQTT_PASSWORD     "********"
 #define MQTT_SERVER       "192.168.1.3" // BRIX
 #define MQTT_SERVER_PORT  1883
 
